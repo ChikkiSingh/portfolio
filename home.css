@@ -1,0 +1,115 @@
+
+
+ 
+* General Styles */
+/* Skills Section */
+ 
+
+.skills__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.skills__content {
+     
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skills__group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skills__data {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.skills__name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.skills__level {
+    font-size: 16px;
+    color: #777;
+}
+
+.skills__data i {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+/* Experience Section */
+.experience {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.experience__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.experience__content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.experience__details {
+    margin-bottom: 10px;
+}
+
+.experience__time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.experience__company {
+    font-weight: bold;
+    color: #333;
+}
+
+.experience__description {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.6;
+}
+
+
+ 
+ 
